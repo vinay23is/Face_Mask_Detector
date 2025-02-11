@@ -1,37 +1,23 @@
 # Face Mask Detection
 
-This repository contains a Python script (`facemask.py`) for detecting face masks using deep learning.
+This repository contains a Python script for detecting face masks using deep learning.
+
+## Files in this Repository
+
+- **`facemask.py`**: The main script that detects whether a person is wearing a mask or not.
+- **`haarcascade_frontalface_default.xml`**: A pre-trained Haar Cascade classifier used for face detection.
+- **`mymodel.h5`**: A trained deep learning model for classifying masked and unmasked faces.
+- **`README.md`**: This documentation file explaining the project.
 
 ## Features
+
 - Detects whether a person is wearing a mask or not.
 - Can be integrated with real-time video feeds.
-- Utilizes OpenCV and a deep learning model for detection.
+- Uses OpenCV for face detection and a deep learning model for mask classification.
 
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/face-mask-detection.git
    cd face-mask-detection
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-Run the script to start face mask detection:
-```bash
-python facemask.py
-```
-
-## Dependencies
-Make sure you have the following Python libraries installed:
-- OpenCV
-- TensorFlow/Keras
-- NumPy
-
-## Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
