@@ -11,9 +11,10 @@ This repository contains a Python script for detecting face masks using deep lea
 
 ## Features
 
-- Detects whether a person is wearing a mask or not.
-- Can be integrated with real-time video feeds.
-- Uses OpenCV for face detection and a deep learning model for mask classification.
+- **Train a CNN Model**: The script includes a CNN model built with Keras to classify images of faces as wearing a mask or not.
+- **Pretrained Model**: It loads a pre-trained model (`mymodel.h5`) to detect face masks in real-time.
+- **Live Video Mask Detection**: Uses OpenCV to capture video, detect faces, and predict whether a mask is worn.
+- **Image-based Prediction**: Can classify whether an individual image contains a masked or unmasked face.
 
 ## Installation
 
